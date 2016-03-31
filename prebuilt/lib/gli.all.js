@@ -11722,7 +11722,7 @@ function scrollIntoViewIfNeeded(el) {
 
         gli.ui.appendSeparator(el);
 
-        generateBufferHistory(gl, el, buffer, version);
+        //generateBufferHistory(gl, el, buffer, version);
         gli.ui.appendbr(el);
 
         var frame = gl.ui.controller.currentFrame;

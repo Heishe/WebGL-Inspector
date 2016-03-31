@@ -13,7 +13,7 @@
     for (var n = 0; n < scripts.length; n++) {
         var scriptTag = scripts[n];
         var src = scriptTag.src.toLowerCase();
-        if (/core\/embed.js$/.test(src)) {
+        if (/prebuilt\/embed.js$/.test(src)) {
             // Found ourself - strip our name and set the root
             var index = src.lastIndexOf("embed.js");
             pathRoot = scriptTag.src.substring(0, index);
